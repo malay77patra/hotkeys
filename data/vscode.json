@@ -1,0 +1,185 @@
+{
+    "name": "Visual Studio Code",
+    "hotkeys": [
+        {
+            "key": "ctrl+shift+p",
+            "description": "Show Command Palette"
+        },
+        {
+            "key": "ctrl+p",
+            "description": "Quick Open, Go to File"
+        },
+        {
+            "key": "ctrl+shift+n",
+            "description": "New Window"
+        },
+        {
+            "key": "ctrl+shift+w",
+            "description": "Close Window"
+        },
+        {
+            "key": "ctrl+`",
+            "description": "Toggle Integrated Terminal"
+        },
+        {
+            "key": "ctrl+b",
+            "description": "Toggle Sidebar Visibility"
+        },
+        {
+            "key": "ctrl+shift+e",
+            "description": "Show Explorer"
+        },
+        {
+            "key": "ctrl+shift+f",
+            "description": "Search in Files"
+        },
+        {
+            "key": "ctrl+shift+g",
+            "description": "Source Control"
+        },
+        {
+            "key": "ctrl+shift+d",
+            "description": "Show Run and Debug"
+        },
+        {
+            "key": "ctrl+shift+x",
+            "description": "Show Extensions"
+        },
+        {
+            "key": "ctrl+space",
+            "description": "Trigger Suggest"
+        },
+        {
+            "key": "ctrl+/",
+            "description": "Toggle Line Comment"
+        },
+        {
+            "key": "shift+alt+a",
+            "description": "Toggle Block Comment"
+        },
+        {
+            "key": "alt+up",
+            "description": "Move Line Up"
+        },
+        {
+            "key": "alt+down",
+            "description": "Move Line Down"
+        },
+        {
+            "key": "shift+alt+up",
+            "description": "Copy Line Up"
+        },
+        {
+            "key": "shift+alt+down",
+            "description": "Copy Line Down"
+        },
+        {
+            "key": "ctrl+shift+k",
+            "description": "Delete Line"
+        },
+        {
+            "key": "ctrl+enter",
+            "description": "Insert Line Below"
+        },
+        {
+            "key": "ctrl+shift+enter",
+            "description": "Insert Line Above"
+        },
+        {
+            "key": "ctrl+shift+\\",
+            "description": "Jump to Matching Bracket"
+        },
+        {
+            "key": "ctrl+]",
+            "description": "Indent Line"
+        },
+        {
+            "key": "ctrl+[",
+            "description": "Outdent Line"
+        },
+        {
+            "key": "ctrl+z",
+            "description": "Undo"
+        },
+        {
+            "key": "ctrl+y",
+            "description": "Redo"
+        },
+        {
+            "key": "ctrl+x",
+            "description": "Cut Line"
+        },
+        {
+            "key": "ctrl+c",
+            "description": "Copy Line"
+        },
+        {
+            "key": "ctrl+v",
+            "description": "Paste"
+        },
+        {
+            "key": "ctrl+f",
+            "description": "Find"
+        },
+        {
+            "key": "ctrl+h",
+            "description": "Replace"
+        },
+        {
+            "key": "f8",
+            "description": "Go to Next Error or Warning"
+        },
+        {
+            "key": "shift+f8",
+            "description": "Go to Previous Error or Warning"
+        },
+        {
+            "key": "f12",
+            "description": "Go to Definition"
+        },
+        {
+            "key": "alt+f12",
+            "description": "Peek Definition"
+        },
+        {
+            "key": "ctrl+.",
+            "description": "Quick Fix"
+        },
+        {
+            "key": "ctrl+shift+m",
+            "description": "Show Problems Panel"
+        },
+        {
+            "key": "ctrl+tab",
+            "description": "Cycle Through Open Editors"
+        },
+        {
+            "key": "ctrl+k ctrl+f",
+            "description": "Format Document"
+        },
+        {
+            "key": "ctrl+shift+o",
+            "description": "Go to Symbol"
+        },
+        {
+            "key": "ctrl+g",
+            "description": "Go to Line"
+        },
+        {
+            "key": "ctrl+shift+.",
+            "description": "Fold Region"
+        },
+        {
+            "key": "ctrl+shift+,",
+            "description": "Unfold Region"
+        },
+        {
+            "key": "ctrl+k ctrl+0",
+            "description": "Fold All"
+        },
+        {
+            "key": "ctrl+k ctrl+j",
+            "description": "Unfold All"
+        }
+    ]
+}

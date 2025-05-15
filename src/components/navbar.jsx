@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import SearchInput from '@/components/search-input'
 
-export default function Navbar() {
+export default function Navbar({ softwares }) {
     return (
         <nav className='bg-background px-4 h-14 flex items-center border-b gap-2'>
             <a href='/' className='flex items-center justify-center'>
@@ -15,8 +15,8 @@ export default function Navbar() {
                 />
                 <h1 className='font-bold'>OTKEYS</h1>
             </a>
-            <div className='flex-1'></div>
-            <SearchInput />
+            <div className='flex-1' />
+            <SearchInput softwares={softwares} />
         </nav>
     )
 }
