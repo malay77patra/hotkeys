@@ -1,4 +1,4 @@
-# HOTKEYS 🔥⌨️
+# <img src="public/hotkeys.svg" height="32" width="32" > HOTKEYS
 
 *Elevate your productivity — ditch the mouse, master the keys.*
 
