@@ -15,7 +15,7 @@
 
 ## 📸 Preview
 
-![HOTKEYS Screenshot](public/screenshot.png)
+![HOTKEYS Screenshot](public/demo.png)
 
 ---
 
