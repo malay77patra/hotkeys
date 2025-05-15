@@ -2,9 +2,12 @@
 
 *Elevate your productivity — ditch the mouse, master the keys.*
 
+
 ![GitHub stars](https://img.shields.io/github/stars/malay77patra/hotkeys?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/malay77patra/hotkeys?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/malay77patra/hotkeys?style=social)
+
+### 🌐 Visit: https://hotkeys-iota.vercel.app
 
 **HOTKEYS** helps you discover and learn keyboard shortcuts effortlessly. Supercharge your workflow and make your mouse jealous. 🪄
 
