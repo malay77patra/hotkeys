@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HOTKEYS 🔥⌨️
 
-## Getting Started
+*Elevate your productivity — ditch the mouse, master the keys.*
 
-First, run the development server:
+![GitHub stars](https://img.shields.io/github/stars/malay77patra/hotkeys?style=social)
+![GitHub forks](https://img.shields.io/github/forks/malay77patra/hotkeys?style=social)
+![GitHub issues](https://img.shields.io/github/issues/malay77patra/hotkeys?style=social)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**HOTKEYS** helps you discover and learn keyboard shortcuts effortlessly. Supercharge your workflow and make your mouse jealous. 🪄
+
+---
+
+## 📸 Preview
+
+![HOTKEYS Screenshot](public/screenshot.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- ![Next.js](https://img.shields.io/badge/-Next.js-000?logo=next.js&logoColor=white&style=flat-square) [Next.js](https://nextjs.org/)
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat-square) [React](https://reactjs.org/)
+- ![shadcn/ui](https://img.shields.io/badge/-shadcn/ui-000?logo=vercel&logoColor=white&style=flat-square) [shadcn/ui](https://ui.shadcn.com/)
+- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square) [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📊 Contribute
+
+We love contributions! Here’s how you can get involved:
+
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+---
+
+### 🔑 Adding New Shortcuts
+
+To add hotkeys for a new app:
+
+1. Create a new `.json` file in the `data/` directory (the filename becomes the slug).
+  - Filename can only contain letters, numbers and hiphens
+  - Must not contain space or any special character
+3. Use the format below:
+
+```json
+{
+  "name": "",
+  "hotkeys": [
+    { "key": "k+e+y", "description": "" }
+  ]
+}
 ```
+3. Add a logo image file inside `public/icon/` with the same filename. (Optional)
+4. Submit a Pull Request — and you're done!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⭐ Support the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If **HOTKEYS** makes your day easier (and your mouse cry a little), consider buying the developer a coffee with few more clicks.
 
-## Learn More
+<a href="https://www.buymeacoffee.com/malaypatra" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px" width="217px">
+</a>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔍 Keywords
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`keyboard shortcuts`, `hotkeys`, `productivity tools`, `developer tools`, `shortcut reference`, `Next.js`, `software shortcuts`, `keyboard commands`, `workflow efficiency`, `developer resources`
