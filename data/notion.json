@@ -1,0 +1,85 @@
+{
+    "name": "Notion",
+    "hotkeys": [
+        {
+            "key": "Ctrl + N",
+            "description": "Create a new page"
+        },
+        {
+            "key": "Ctrl + P",
+            "description": "Quick find / search pages"
+        },
+        {
+            "key": "Ctrl + Shift + L",
+            "description": "Toggle dark mode"
+        },
+        {
+            "key": "Ctrl + /",
+            "description": "Open command palette"
+        },
+        {
+            "key": "Ctrl + B",
+            "description": "Bold selected text"
+        },
+        {
+            "key": "Ctrl + I",
+            "description": "Italicize selected text"
+        },
+        {
+            "key": "Ctrl + U",
+            "description": "Underline selected text"
+        },
+        {
+            "key": "Ctrl + Shift + S",
+            "description": "Strikethrough selected text"
+        },
+        {
+            "key": "Ctrl + Shift + H",
+            "description": "Highlight selected text"
+        },
+        {
+            "key": "Ctrl + E",
+            "description": "Inline code"
+        },
+        {
+            "key": "Ctrl + Shift + M",
+            "description": "Comment on selected block"
+        },
+        {
+            "key": "Ctrl + Shift + Arrow Up/Down",
+            "description": "Move block up/down"
+        },
+        {
+            "key": "Ctrl + D",
+            "description": "Duplicate block"
+        },
+        {
+            "key": "Ctrl + Shift + Arrow Left/Right",
+            "description": "Indent/Outdent block"
+        },
+        {
+            "key": "Ctrl + Enter",
+            "description": "Open block menu"
+        },
+        {
+            "key": "Ctrl + K",
+            "description": "Add/Edit link"
+        },
+        {
+            "key": "Ctrl + Shift + L",
+            "description": "Toggle checklist"
+        },
+        {
+            "key": "Ctrl + Z",
+            "description": "Undo"
+        },
+        {
+            "key": "Ctrl + Y",
+            "description": "Redo"
+        },
+        {
+            "key": "Ctrl + Shift + C",
+            "description": "Copy link to block"
+        }
+    ]
+}

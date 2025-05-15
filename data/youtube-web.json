@@ -1,3 +1,89 @@
 {
-    "name": "Youtube web"
+    "name": "YouTube Web",
+    "hotkeys": [
+        {
+            "key": "k",
+            "description": "Play/Pause the video"
+        },
+        {
+            "key": "j",
+            "description": "Rewind 10 seconds"
+        },
+        {
+            "key": "l",
+            "description": "Fast forward 10 seconds"
+        },
+        {
+            "key": "m",
+            "description": "Mute/Unmute volume"
+        },
+        {
+            "key": "ArrowLeft",
+            "description": "Rewind 5 seconds"
+        },
+        {
+            "key": "ArrowRight",
+            "description": "Fast forward 5 seconds"
+        },
+        {
+            "key": "ArrowUp",
+            "description": "Increase volume"
+        },
+        {
+            "key": "ArrowDown",
+            "description": "Decrease volume"
+        },
+        {
+            "key": "f",
+            "description": "Enter/Exit fullscreen"
+        },
+        {
+            "key": "c",
+            "description": "Toggle captions/subtitles"
+        },
+        {
+            "key": "i",
+            "description": "Open Miniplayer"
+        },
+        {
+            "key": "t",
+            "description": "Toggle theater mode"
+        },
+        {
+            "key": "Shift + n",
+            "description": "Next video in playlist"
+        },
+        {
+            "key": "Shift + p",
+            "description": "Previous video in playlist"
+        },
+        {
+            "key": "0",
+            "description": "Go to beginning of the video"
+        },
+        {
+            "key": "1–9",
+            "description": "Jump to 10%–90% of the video"
+        },
+        {
+            "key": "/",
+            "description": "Focus the search box"
+        },
+        {
+            "key": "Esc",
+            "description": "Exit fullscreen or Miniplayer"
+        },
+        {
+            "key": "Tab",
+            "description": "Navigate through controls"
+        },
+        {
+            "key": "Enter",
+            "description": "Select focused item"
+        },
+        {
+            "key": "Spacebar",
+            "description": "Play/Pause (when player is focused)"
+        }
+    ]
 }

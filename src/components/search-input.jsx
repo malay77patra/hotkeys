@@ -29,7 +29,7 @@ export default function SearchInput({ softwares }) {
 
     return (
         <>
-            <div className="border w-56 h-8 flex items-center justify-between p-2 pr-1 rounded-sm cursor-pointer hover:bg-muted/50 transition-colors active:ring active:bg-muted/50" onClick={() => setOpen(true)}>
+            <div className="border w-44 h-8 flex items-center justify-between p-2 pr-1 rounded-sm cursor-pointer hover:bg-muted/50 transition-colors active:ring active:bg-muted/50" onClick={() => setOpen(true)}>
                 <span className="text-sm font-medium text-muted-foreground">Search hotkeys...</span>
                 <kbd className="border px-1 rounded-sm">
                     <span className="text-xs text-muted-foreground">⌘k</span>

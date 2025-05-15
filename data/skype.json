@@ -1,0 +1,89 @@
+{
+    "name": "Skype Web",
+    "hotkeys": [
+        {
+            "key": "Ctrl + N",
+            "description": "Start a new chat"
+        },
+        {
+            "key": "Ctrl + Shift + C",
+            "description": "Start a call"
+        },
+        {
+            "key": "Ctrl + Shift + K",
+            "description": "Start a video call"
+        },
+        {
+            "key": "Ctrl + E",
+            "description": "Search Skype"
+        },
+        {
+            "key": "Ctrl + F",
+            "description": "Find in current conversation"
+        },
+        {
+            "key": "Ctrl + G",
+            "description": "Go to previous unread conversation"
+        },
+        {
+            "key": "Ctrl + Shift + A",
+            "description": "Add people to a conversation"
+        },
+        {
+            "key": "Ctrl + P",
+            "description": "Open profile settings"
+        },
+        {
+            "key": "Ctrl + ,",
+            "description": "Open app settings"
+        },
+        {
+            "key": "Ctrl + M",
+            "description": "Toggle mute"
+        },
+        {
+            "key": "Ctrl + Shift + M",
+            "description": "Toggle microphone"
+        },
+        {
+            "key": "Ctrl + Shift + O",
+            "description": "Toggle video"
+        },
+        {
+            "key": "Ctrl + Shift + H",
+            "description": "Toggle hold"
+        },
+        {
+            "key": "Ctrl + Shift + K",
+            "description": "Toggle screen sharing"
+        },
+        {
+            "key": "Ctrl + Shift + B",
+            "description": "Show/hide dial pad"
+        },
+        {
+            "key": "Ctrl + Shift + E",
+            "description": "Send a file"
+        },
+        {
+            "key": "Ctrl + L",
+            "description": "Log out"
+        },
+        {
+            "key": "Ctrl + Q",
+            "description": "Quit Skype"
+        },
+        {
+            "key": "Alt + ↑ / ↓",
+            "description": "Navigate between chats"
+        },
+        {
+            "key": "Enter",
+            "description": "Send message"
+        },
+        {
+            "key": "Shift + Enter",
+            "description": "Insert line break"
+        }
+    ]
+}

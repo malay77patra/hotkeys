@@ -1,0 +1,85 @@
+{
+    "name": "Discord Web/Desktop",
+    "hotkeys": [
+        {
+            "key": "Ctrl + K",
+            "description": "Quick Switcher (Jump to a channel or DM)"
+        },
+        {
+            "key": "Ctrl + /",
+            "description": "Open Keyboard Shortcuts help"
+        },
+        {
+            "key": "Ctrl + Shift + M",
+            "description": "Toggle Mute"
+        },
+        {
+            "key": "Ctrl + Shift + D",
+            "description": "Toggle Deafen"
+        },
+        {
+            "key": "Ctrl + E",
+            "description": "Toggle Emoji Picker"
+        },
+        {
+            "key": "Ctrl + Shift + U",
+            "description": "Mark all messages as read"
+        },
+        {
+            "key": "Ctrl + Shift + T",
+            "description": "Toggle thread list"
+        },
+        {
+            "key": "Ctrl + B",
+            "description": "Toggle Bold formatting"
+        },
+        {
+            "key": "Ctrl + I",
+            "description": "Toggle Italic formatting"
+        },
+        {
+            "key": "Ctrl + U",
+            "description": "Toggle Underline formatting"
+        },
+        {
+            "key": "Ctrl + Shift + X",
+            "description": "Toggle Strikethrough formatting"
+        },
+        {
+            "key": "Ctrl + Shift + C",
+            "description": "Toggle Code Block"
+        },
+        {
+            "key": "Ctrl + P",
+            "description": "Open User Settings"
+        },
+        {
+            "key": "Ctrl + Shift + N",
+            "description": "Create a new server"
+        },
+        {
+            "key": "Ctrl + Shift + F",
+            "description": "Search messages"
+        },
+        {
+            "key": "Alt + ↑ / ↓",
+            "description": "Navigate channels"
+        },
+        {
+            "key": "Page Up / Page Down",
+            "description": "Scroll chat history"
+        },
+        {
+            "key": "Escape",
+            "description": "Close modals or menus"
+        },
+        {
+            "key": "Enter",
+            "description": "Send message"
+        },
+        {
+            "key": "Shift + Enter",
+            "description": "New line in message"
+        }
+    ]
+}

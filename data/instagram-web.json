@@ -1,0 +1,57 @@
+{
+    "name": "Instagram Web",
+    "hotkeys": [
+        {
+            "key": "j",
+            "description": "Go to next post"
+        },
+        {
+            "key": "k",
+            "description": "Go to previous post"
+        },
+        {
+            "key": "l",
+            "description": "Like or unlike a post"
+        },
+        {
+            "key": "c",
+            "description": "Open comment box"
+        },
+        {
+            "key": "s",
+            "description": "Save or unsave a post"
+        },
+        {
+            "key": "p",
+            "description": "Open profile"
+        },
+        {
+            "key": "h",
+            "description": "Go to home feed"
+        },
+        {
+            "key": "d",
+            "description": "Open Direct Messages"
+        },
+        {
+            "key": "r",
+            "description": "Refresh the page"
+        },
+        {
+            "key": "Escape",
+            "description": "Close popups or modals"
+        },
+        {
+            "key": "Enter",
+            "description": "Submit comment or send message"
+        },
+        {
+            "key": "Tab",
+            "description": "Navigate between UI elements"
+        },
+        {
+            "key": "Shift + ?",
+            "description": "Open Instagram keyboard shortcuts help"
+        }
+    ]
+}
