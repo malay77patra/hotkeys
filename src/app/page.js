@@ -68,7 +68,7 @@ export default function Page() {
             <p className="inline-block font-semibold text-accent mb-4">FAQ</p>
             <p className="text-3xl md:text-4xl font-extrabold text-foreground/80">Frequently Asked Questions</p>
           </div>
-          <Accordion type="single" collapsible className="basis-1/2">
+          <Accordion type="single" collapsible className="basis-1/2 [&_a]:text-blue-800 [&_a:hover]:text-blue-600">
 
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg lg:text-xl">Why HOTKEYS?</AccordionTrigger>

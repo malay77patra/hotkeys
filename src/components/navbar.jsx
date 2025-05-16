@@ -19,7 +19,7 @@ export default function Navbar({ softwares }) {
             </a>
             <div className='flex-1' />
             <SearchInput softwares={softwares} />
-            <Link href="https://github.com/malay77patra/hotkeys" className="text-foreground">
+            <Link href="https://github.com/malay77patra/hotkeys">
                 <FaGithub className="size-6" />
             </Link>
         </nav>
