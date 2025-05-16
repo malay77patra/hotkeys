@@ -15,7 +15,7 @@ export default function Navbar({ softwares }) {
                     className='size-7'
                     priority
                 />
-                <h1 className='font-bold text-lg'>HOTKEYS</h1>
+                <h1 className='font-extrabold tracking-tight text-accent text-lg'>HOTKEYS</h1>
             </a>
             <div className='flex-1' />
             <SearchInput softwares={softwares} />

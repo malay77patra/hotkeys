@@ -38,7 +38,7 @@ const BleedButton = ({ children, onClick = () => { }, className }) => {
                         animate={{ x: ball.x, y: ball.y, opacity: 0, scale: 0.5 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 1 }}
-                        className="absolute w-4 h-4 bg-red-500 rounded-full top-1/2 left-1/2 z-0"
+                        className="absolute w-4 h-4 bg-red-500 rounded-full top-1/2 left-1/2 z-99"
                         style={{ marginTop: -8, marginLeft: -8 }}
                     />
                 ))}
