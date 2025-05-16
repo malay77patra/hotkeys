@@ -9,10 +9,10 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-8 py-24">
                 <div className="flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 
-                    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto md:text-left">
                         <a
                             aria-current="page"
-                            className="flex gap-2 justify-center md:justify-start items-center"
+                            className="flex gap-2 justify-start items-center"
                             href="/#"
                         >
                             <Image
@@ -27,7 +27,7 @@ export default function Footer() {
                         <p className="mt-3 text-sm">
                             Master keyboard shortcuts with ease. Discover, learn, and use hotkeys faster than ever. Boost your productivity. No more guessing. No more clicking. Just pure flow.
                         </p>
-                        <p className="mt-3 text-sm text-foreground/50 mb-2">
+                        <p className="mt-3 text-sm text-foreground/50 mb-4">
                             Copyright © 2025 - All rights reserved
                         </p>
                         <Link className={buttonVariants()} href="https://nextjs.org/">
