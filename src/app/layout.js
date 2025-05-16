@@ -10,7 +10,7 @@ const gabarito = Gabarito({
 
 export const metadata = {
   title: "HOTKEYS",
-  description: "Learn hotkeys, throw the mouse 🚀",
+  description: "Learn hotkeys, kill the mouse 🚀",
 }
 
 export default function RootLayout({ children }) {
