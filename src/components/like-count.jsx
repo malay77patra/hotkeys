@@ -26,19 +26,18 @@ export default function LikeCount() {
         setLikes(data.likes)
     }
 
-    if (loading) return null
-
     return (
         <div className="flex items-center gap-2">
             <BleedButton
                 onClick={handleLike}
+                disabled={loading}
             >
                 <Image
                     src="/mouse.svg"
                     alt="Mouse icon"
                     width={24}
                     height={24}
-                    className="size-10 lg:size-12 border p-2 rounded-sm active:bg-red-500/10 hover:bg-red-500/10"
+                    className="size-10 lg:size-12 p-2 rounded-sm active:bg-red-500/10 hover:bg-red-500/10"
                 />
                 <Pointer>
                     <span className="hidden [@media(hover:hover)]:block text-3xl">🔪</span>

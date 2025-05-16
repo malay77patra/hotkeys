@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
 
-const BleedButton = ({ children, onClick = () => { }, className }) => {
+const BleedButton = ({ children, onClick = () => { }, className, disabled = false }) => {
     const [balls, setBalls] = useState([])
 
     const handleClick = () => {
@@ -26,6 +26,7 @@ const BleedButton = ({ children, onClick = () => { }, className }) => {
                     onClick()
                 }}
                 className={cn("relative z-10 flex items-center justify-center", className)}
+                disabled={disabled}
             >
                 {children}
             </button>

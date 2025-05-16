@@ -140,6 +140,10 @@
   button {
     @apply cursor-pointer;
   }
+
+  a {
+    @apply text-blue-800 hover:text-blue-500
+  }
 }
 
 .highlight-box {
