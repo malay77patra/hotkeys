@@ -40,7 +40,7 @@ export default function LikeCount() {
                     className="size-6 lg:size-8"
                 />
                 <Pointer>
-                    <span className="text-3xl">🔪</span>
+                    <span className="hidden [@media(hover:hover)]:block text-3xl">🔪</span>
                 </Pointer>
             </BleedButton>
             <span className="text-lg font-medium">
