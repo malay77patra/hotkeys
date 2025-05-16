@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
 import { Marquee } from '@/components/magicui/marquee'
 import { getAllSoftwares } from '@/lib/render'
+import LikeCount from '@/components/like-count'
 
 export default function Page() {
   const softwares = getAllSoftwares()
@@ -48,6 +48,7 @@ export default function Page() {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
       </div>
+      <LikeCount />
     </div>
   )
 }
