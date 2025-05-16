@@ -87,7 +87,7 @@ export default function Page() {
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-lg lg:text-xl">Can I contribute to HOTKEYS?</AccordionTrigger>
               <AccordionContent>
-                bsolutely! You can add new shortcuts, improve existing ones, or suggest features. Just follow the simple steps in the <a href="https://github.com/malay77patra/hotkeys">README</a> and submit a pull request on GitHub.
+                Absolutely! You can add new shortcuts, improve existing ones, or suggest features. Just follow the simple steps in the <a href="https://github.com/malay77patra/hotkeys">README</a> and submit a pull request on GitHub.
               </AccordionContent>
             </AccordionItem>
 
