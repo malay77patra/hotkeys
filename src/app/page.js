@@ -10,6 +10,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { SiBuymeacoffee } from "react-icons/si"
+import { Button } from '@/components/ui/button'
 
 export default function Page() {
   const softwares = getAllSoftwares()
@@ -78,9 +80,15 @@ export default function Page() {
             </AccordionItem>
 
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-lg lg:text-xl">Is it free to use?</AccordionTrigger>
+              <AccordionTrigger className="text-lg lg:text-xl">Is HOTKEYS free to use?</AccordionTrigger>
               <AccordionContent>
-                Yes, HOTKEYS is completely free and open source — no subscriptions, no ads, no sign-ups. If you love it and want to support development, you can buy me a coffee here &#x2192; <a href="https://buymeacoffee.com/malaypatra">buymeacoffee.com/malaypatra ☕</a>
+                <p className="mb-2">Yes, HOTKEYS is completely free and open source — no subscriptions, no ads, no sign-ups. If you love it and want to support development, you can buy me a coffee here -</p>
+                <Button className="bg-yellow-400 hover:bg-yellow-500" asChild>
+                  <a href="https://www.buymeacoffee.com/malaypatra" target="_blank" rel="noopener noreferrer" className="text-black!">
+                    Buy me a coffee{" "}
+                    <SiBuymeacoffee />
+                  </a>
+                </Button>
               </AccordionContent>
             </AccordionItem>
 

@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import { buttonVariants } from './ui/button'
 import Link from 'next/link'
+import { Button } from './ui/button'
+import { SiBuymeacoffee } from "react-icons/si"
 
 export default function Footer() {
     return (
@@ -27,19 +29,27 @@ export default function Footer() {
                         <p className="mt-3 text-sm">
                             Master keyboard shortcuts with ease. Discover, learn, and use hotkeys faster than ever. Boost your productivity. No more guessing. No more clicking. Just pure flow.
                         </p>
-                        <p className="mt-3 text-sm text-foreground/50 mb-4">
+                        <p className="mt-3 text-sm text-foreground/50">
                             Copyright © 2025 - All rights reserved
                         </p>
-                        <Link className={buttonVariants()} href="https://nextjs.org/">
-                            <span>Built with</span>
-                            <Image
-                                alt="Next.js logo"
-                                width={100}
-                                height={100}
-                                className="size-5"
-                                src="/next.svg"
-                            />
-                        </Link>
+                        <div className="my-4 flex flex-col gap-2 items-start justify-start">
+                            <Link className={buttonVariants()} href="https://nextjs.org/">
+                                <span>Built with</span>
+                                <Image
+                                    alt="Next.js logo"
+                                    width={100}
+                                    height={100}
+                                    className="size-5"
+                                    src="/next.svg"
+                                />
+                            </Link>
+                            <Button className="bg-yellow-400 hover:bg-yellow-500" asChild>
+                                <a href="https://www.buymeacoffee.com/malaypatra" target="_blank" rel="noopener noreferrer" className="text-black!">
+                                    Buy me a coffee{" "}
+                                    <SiBuymeacoffee />
+                                </a>
+                            </Button>
+                        </div>
                     </div>
 
                     <div className="flex-grow flex justify-center -mb-10 md:mt-0 mt-10 text-center md:pl-24">
