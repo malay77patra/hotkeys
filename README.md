@@ -17,6 +17,8 @@
 
 ![HOTKEYS Screenshot](public/demo.png)
 
+[Tweet](https://x.com/malay77patra/status/1923688799269421092)
+
 ---
 
 ## 🛠️ Tech Stack
