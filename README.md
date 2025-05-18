@@ -15,7 +15,9 @@
 
 ## 📸 Preview
 
-![HOTKEYS Screenshot](public/demo.png)
+![HOTKEYS Screenshot](public/landing_page.png)
+
+[Tweet](https://x.com/malay77patra/status/1923688799269421092)
 
 ---
 
