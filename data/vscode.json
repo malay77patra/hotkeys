@@ -2,7 +2,9 @@
     "name": "Visual Studio Code",
     "hotkeys": [
         {
-            "key": "ctrl+shift+p",
+            "key": {
+                "win": "ctrl+shift+p"
+            },
             "description": "Show Command Palette"
         },
         {

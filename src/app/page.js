@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Marquee } from '@/components/magicui/marquee'
 import { getAllSoftwares } from '@/lib/render'
 import LikeCount from '@/components/like-count'
-import SearchInput from '@/components/search-input'
 import {
   Accordion,
   AccordionContent,

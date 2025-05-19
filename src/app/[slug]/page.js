@@ -10,16 +10,34 @@ import {
     TableRow,
 } from "@/components/ui/table"
 import Image from 'next/image'
+import OSSelector from '@/components/os-selector'
 
-export default async function SoftwarePage({ params }) {
+export default async function SoftwarePage({ params, searchParams }) {
     const { slug } = await params
+    const { os } = await searchParams
+    const selectedOS = os || "win"
     const software = getSoftwareBySlug(slug)
     const icon = getIconBySlug(slug)
-    const isHotKeys = software?.hotkeys?.length > 0
 
     if (!software) {
         notFound()
     }
+
+    const filteredHotkeys = software.hotkeys?.filter(hotkey => {
+        if (typeof hotkey.key === 'object') {
+            return selectedOS in hotkey.key;
+        }
+        
+        return true;
+    }).map(hotkey => {
+        
+        return {
+            ...hotkey,
+            displayKey: typeof hotkey.key === 'object' ? hotkey.key[selectedOS] : hotkey.key
+        };
+    });
+    
+    const isHotKeys = filteredHotkeys?.length > 0;
 
     return (
         <main className="p-4 max-w-3xl mx-auto">
@@ -35,6 +53,9 @@ export default async function SoftwarePage({ params }) {
                 )}
                 <h1 className="text-xl font-bold">{software.name}</h1>
             </div>
+
+            <OSSelector os={os} />
+
             {isHotKeys ? (
                 <Table>
                     <TableHeader>
@@ -44,11 +65,13 @@ export default async function SoftwarePage({ params }) {
                         </TableRow>
                     </TableHeader>
                     <TableBody>
-                        {software.hotkeys?.map((hotkey, idx) => {
+                        {filteredHotkeys.map((hotkey, idx) => {
                             return (
                                 <TableRow key={idx}>
                                     <TableCell>
-                                        <kbd className="border p-1 rounded-sm font-mono bg-muted-foreground/10">{hotkey.key}</kbd>
+                                        <kbd className="border p-1 rounded-sm font-mono bg-muted-foreground/10">
+                                            {hotkey.displayKey}
+                                        </kbd>
                                     </TableCell>
                                     <TableCell>
                                         <p>{hotkey.description}</p>
@@ -59,7 +82,7 @@ export default async function SoftwarePage({ params }) {
                     </TableBody>
                 </Table>
             ) : (
-                <p className="text-muted-foreground">No keyboard shortcuts yet.</p>
+                <p className="text-muted-foreground">No keyboard shortcuts available for {selectedOS}.</p>
             )}
         </main>
     )
